@@ -1000,11 +1000,10 @@ function main(config) {
     "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
     "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
     "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
-    // --------------------------------------------------------------
-    // Gemini API 强制走 AI 分组（修复手机端走 Google 分组的问题）
-    // --------------------------------------------------------------
     "DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI",
+    "DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,AI",
     // --------------------------------------------------------------
+    // -------------------------------------------------------------
     // Network Test
     // --------------------------------------------------------------
     "RULE-SET,NetworkTest,网络检测",
